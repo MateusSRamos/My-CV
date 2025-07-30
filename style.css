@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+.information-column {
+  background-color: #000;
+  padding: 40px;
+  color: #fff;
+  text-align: center;
+  border-bottom: #008000;
+}
+.information-column img {
+  width: 300px;
+  height: 300px;
+  border-radius: 130px;
+  border: 3px solid #008000;
+  margin-bottom: 18px;
+}
+
+.information-column hr {
+  border: none;
+  border-bottom: 1px solid #008000;
+  margin-top: 18px;
+}
+
+.information-column h3 {
+  text-align: left;
+  margin-top: 20px;
+}
+.information-column ul {
+  list-style-type: none;
+  text-align: left;
+}
+.information-column li {
+  text-align: left;
+  margin: 10px 0;
+}
+.contact-description a {
+  text-decoration: none;
+  color: #fff;
+}
+.contact-description i {
+  color: #008000;
+  margin-right: 10px;
+}
+
+.education-description p {
+  color: #008000;
+}
+.education-description {
+  margin-top: 32px;
+}
+
+.lenguage-discription {
+  list-style-type: none;
+}
+.lenguage-discription .percent {
+  height: 6px;
+  width: 205px;
+  margin-top: 5px;
+  background-color: #008000;
+  color: #32cd32;
+}
+.lenguage-discription .percent div {
+  height: 6px;
+  background-color: #32cd32;
+}
+.lenguage-discription .percent.english div {
+  width: 60%;
+}
+
+.experiences-column {
+  background-color: #fff;
+  padding: 40px;
+  text-align: left;
+}
+
+.experiences-column section {
+  margin-bottom: 30px;
+}
+.experiences-column h2 {
+  margin-bottom: 15px;
+}
+.experiences-column .experience {
+  margin-bottom: 14px;
+}
+
+.experiences-column a {
+  text-decoration: underline;
+  color: #000;
+}
+.experiences-column .last-date {
+  text-align: right;
+}
+
+@media (min-width: 992px) {
+  .conteiner {
+    display: flex;
+  }
+  .information-column img {
+    width: 200px;
+    height: 200px;
+  }
+  .experiences-column .experience {
+    display: flex;
+  }
+}
+
+.experience-date {
+  width: 200px;
+  flex-shrink: 0;
+}
